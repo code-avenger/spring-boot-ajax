@@ -1,4 +1,4 @@
-package com.mkyong.model;
+package com.app.model;
 
 public class User {
 

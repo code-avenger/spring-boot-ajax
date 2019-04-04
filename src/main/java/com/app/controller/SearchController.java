@@ -1,9 +1,10 @@
-package com.mkyong.controller;
+package com.app.controller;
 
-import com.mkyong.model.AjaxResponseBody;
-import com.mkyong.model.SearchCriteria;
-import com.mkyong.model.User;
-import com.mkyong.services.UserService;
+import com.app.model.AjaxResponseBody;
+import com.app.model.SearchCriteria;
+import com.app.model.User;
+import com.app.services.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.Errors;

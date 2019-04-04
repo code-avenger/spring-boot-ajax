@@ -1,7 +1,8 @@
-package com.mkyong.services;
+package com.app.services;
 
-import com.mkyong.model.User;
 import org.springframework.stereotype.Service;
+
+import com.app.model.User;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.mkyong.controller;
+package com.app.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

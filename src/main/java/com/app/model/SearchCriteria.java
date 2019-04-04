@@ -1,4 +1,4 @@
-package com.mkyong.model;
+package com.app.model;
 
 import org.hibernate.validator.constraints.NotBlank;
 
