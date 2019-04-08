@@ -1,13 +1,14 @@
 package com.app.services;
 
-import org.springframework.stereotype.Service;
-
-import com.app.model.User;
-
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.stereotype.Service;
+
+import com.app.model.User;
 
 @Service
 public class UserService {
@@ -20,6 +21,12 @@ public class UserService {
         List<User> result = users.stream().filter(x -> x.getUsername().equalsIgnoreCase(username)).collect(Collectors.toList());
 
         return result;
+
+    }
+    
+    public List<User> findAll() {
+
+        return users;
 
     }
     /*public List<User> findByUserNameOrEmail(String username, String email) {
