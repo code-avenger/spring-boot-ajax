@@ -29,6 +29,12 @@ public class UserService {
         return users;
 
     }
+
+    public List<User> exceptionTest() {
+
+	throw new NullPointerException();
+
+    }
     /*public List<User> findByUserNameOrEmail(String username, String email) {
 
         List<User> result = new ArrayList<User>();
